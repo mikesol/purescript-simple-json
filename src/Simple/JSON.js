@@ -1,5 +1,3 @@
-exports._parseJSON = JSON.parse;
-
-exports._undefined = undefined;
-
-exports._unsafeStringify = JSON.stringify;
+export var _parseJSON = JSON.parse;
+export {undefined as _undefined};
+export var _unsafeStringify = JSON.stringify;
